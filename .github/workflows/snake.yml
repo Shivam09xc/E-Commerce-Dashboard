@@ -2,25 +2,34 @@ name: Generate Snake
 
 on:
   schedule:
+    # Run every 12 hours
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
-
-permissions:
-  contents: write
+  push:
+    branches:
+      - main
 
 jobs:
-  generate:
+  build:
+    name: Generate Contribution Snake
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - uses: Platane/snk@v3
+      # Generates the snake files in the build/dist directory
+      - name: Generate github-contribution-grid-snake.svg
+        uses: platane/snk/svg-only@v3
         with:
-          github_user_name: Shivam09xc
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg
-
-      - uses: crazy-max/ghaction-github-pages@v3
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # Pushes the svg files to the output branch so they can be referenced in the README
+      - name: Push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
