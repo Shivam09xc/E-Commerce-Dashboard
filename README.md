@@ -128,3 +128,55 @@ Built for performance, readability, and premium user experience.
 ```bash
 git clone https://github.com/Shivam09xc/E-Commerce-Dashboard.git
 cd E-Commerce-Dashboard
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+3️⃣ Launch Streamlit
+python -m streamlit run app.py
+
+Open browser at:
+
+http://localhost:8501
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:7F00FF&height=4" width="100%"/>
+🔄 Data Processing Pipeline
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:7F00FF&height=4" width="100%"/>
+☁️ Deployment
+🌐 GitHub Pages
+Open Repository Settings
+Navigate to Pages
+Select:
+Source → Deploy from branch
+Branch → main
+Folder → /(root)
+☁️ Streamlit Cloud
+
+Deploy using:
+
+app.py
+
+Repository:
+
+Shivam09xc/E-Commerce-Dashboard
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:7F00FF&height=4" width="100%"/>
+🐍 Contribution Snake
+<div align="center"> <img src="https://raw.githubusercontent.com/Shivam09xc/E-Commerce-Dashboard/output/snake.svg" alt="snake animation" /> </div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:7F00FF&height=4" width="100%"/>
+📈 GitHub Analytics
+<div align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shivam09xc&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090d16"/> <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Shivam09xc&theme=tokyonight&hide_border=true&background=090d16"/> </div> <br> <div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=Shivam09xc&theme=tokyonight&no-frame=true&row=1&column=6"/> </div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7FF,100:7F00FF&height=4" width="100%"/>
+🔮 Future Enhancements
+🔐 Authentication System
+🌙 Dark / Light Theme Switcher
+☁️ Firebase Integration
+📱 Mobile Responsive Optimization
+🤖 AI-Based Forecasting
+📊 Machine Learning Analytics
+🔔 Smart Notifications
+🛒 Inventory Management
+<div align="center">
+💙 Crafted with Passion by Shivam Soni
+<br> <img src="https://skillicons.dev/icons?i=python,js,html,css,github,vscode" />
+
+<br><br>
+
+⭐ If you like this project, support it with a star!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:7F00FF&height=120&section=footer" width="100%" /> </div> ```
